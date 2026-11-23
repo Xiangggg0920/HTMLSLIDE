@@ -28,6 +28,18 @@ def document(title, body, prefix="", slides=False):
 def references(ids):
     return "".join(f'<li><a href="sources.html#{e(key)}">{e(source_map[key]["title"])}</a></li>' for key in ids)
 
+def editorial_list(items, source_path, show_sources=True):
+    rows = []
+    for heading, description, keys in items:
+        citations = ""
+        if show_sources:
+            links = " · ".join(
+                f'<a href="{source_path}#{e(key)}">{e(source_map[key]["title"])}</a>' for key in keys
+            )
+            citations = f'<span class="entry-sources">{links}</span>'
+        rows.append(f'<li><strong>{e(heading)}</strong><p>{e(description)}</p>{citations}</li>')
+    return f'<ul class="editorial-list">{"".join(rows)}</ul>'
+
 def track_catalog(source_path):
     categories = []
     for category in group["track_groups"]:
@@ -69,12 +81,21 @@ def slide(key, label, title, content, destination, accent="#ff9faa", visual=""):
 def generate():
     group_url = "wiki/group.html"
     group_photo = '<img src="image/twice.jpg" alt="TWICE 團體合照">'
+    milestones = [(f"{year}｜{title}", note, keys) for year, title, note, *keys in group["milestones"]]
+    routes = [(title, f"{songs}。{note}", keys) for title, songs, note, *keys in group["routes"]]
+    deck_milestones = editorial_list(milestones, "wiki/sources.html", show_sources=False)
+    group_facts = '<dl class="facts"><div><dt>團體人數</dt><dd>9 位</dd></div><div><dt>韓國出道</dt><dd>2015 年</dd></div><div><dt>日本出道</dt><dd>2017 年</dd></div></dl>'
+    group_intro = (f'<p class="lead">{e(group["description"])}</p>{group_facts}'
+                   '<p>從韓國團體主打、日本發行到英文單曲，TWICE 也透過小分隊和個人作品呈現不同的演唱組合。</p>'
+                   '<a class="primary" href="#debut">開始簡報</a>')
     lineup = "".join(
         f'<li><a href="#{m["id"]}" style="--swatch:{m["hex"]}">{e(m["english"])}</a></li>' for m in members
     )
     slides = [
-        slide("intro", "團體介紹", "認識<br>TWICE", f'<p class="lead">{e(group["description"])}</p><a class="primary" href="#debut">開始簡報</a>', group_url, visual=group_photo),
-        slide("debut", "團體沿革", "出道與主打歌", f'<p class="lead">{e(group["debut"])}</p>' + track_catalog("wiki/sources.html"), group_url, "#ffb48f"),
+        slide("intro", "團體介紹", "認識<br>TWICE", group_intro, group_url, visual=group_photo),
+        slide("debut", "團體沿革", "出道與主打歌",
+              f'<p class="lead">{e(group["debut"])}</p><details><summary>展開團體發展年表</summary>{deck_milestones}</details>'
+              + track_catalog("wiki/sources.html"), group_url, "#ffb48f"),
     ]
     entries = {}
     group_members = []
@@ -92,7 +113,13 @@ def generate():
         highlight = member.get("highlight")
         if highlight:
             detail += f'<p class="member-highlight"><strong>作品亮點</strong> {e(highlight)}</p>'
-        slides.append(slide(key, "成員介紹", title, facts + detail + listen, url, hex_code, photo(member)))
+        works = [(f"{year}｜{work}", note, keys) for year, work, note, *keys in member["works"]]
+        solo = member["anniversary_solo"]
+        solo_note = f'<p><strong>十週年獨唱</strong> 〈{e(solo)}〉，收錄於《TEN: The Story Goes On》。</p>'
+        slide_works = editorial_list(works, "wiki/sources.html", show_sources=False)
+        more = f'<details><summary>展開作品與創作紀錄</summary>{slide_works}</details>'
+        listening = f'{listen}<p>{e(member["listening_note"])}</p>'
+        slides.append(slide(key, "成員介紹", title, facts + detail + solo_note + listening + more, url, hex_code, photo(member)))
         related = ""
         if key in {"momo", "sana", "mina"}:
             related = '<p>小分隊關聯 ' + "、".join(
@@ -101,7 +128,10 @@ def generate():
             ) + '</p>'
         entries[f"wiki/{key}.html"] = wiki_page(
             member["english"],
-            f'<article style="--accent:{hex_code}"><h1>{title}</h1>{facts}{detail}{listen}{related}'
+            f'<article style="--accent:{hex_code}"><h1>{title}</h1>{facts}{detail}'
+            f'<h2>代表作品與創作紀錄</h2>{editorial_list(works, "sources.html")}{solo_note}'
+            '<p><a href="sources.html#ten">十週年專輯曲目來源</a></p>'
+            f'<h2>聆聽指南</h2>{listening}{related}'
             f'<p><a href="group.html">TWICE 團體條目</a> · <a href="../index.html#{key}">對應簡報頁</a></p>'
             f'<h2>資料來源</h2><ul>{references(member["sources"])}</ul></article>',
         )
@@ -109,8 +139,12 @@ def generate():
     misamo = ', '.join(f'<a href="{key}.html">{key.upper()}</a>' for key in ("momo", "sana", "mina"))
     entries[group_url] = wiki_page(
         "TWICE 團體", f'<article><h1>TWICE 團體</h1><p>{e(group["description"])}</p><h2>出道與作品</h2>'
-        f'<p>{e(group["debut"])}</p><h2>團體主打歌</h2>{track_catalog("sources.html")}<h2>小分隊 MISAMO</h2>'
-        f'<p>由 {misamo} 組成，2023 年發行日本首張迷你專輯《Masterpiece》。</p>'
+        f'<p>{e(group["debut"])}</p><h2>團體發展年表</h2>{editorial_list(milestones, "sources.html")}'
+        f'<h2>團體主打歌</h2>{track_catalog("sources.html")}<h2>小分隊 MISAMO</h2>'
+        f'<p>由 {misamo} 組成。可從《Masterpiece》的〈Do not touch〉聽起，再聽《HAUTE COUTURE》各成員在不同版本裡的獨唱，最後接到第一張日本正規專輯《PLAY》。</p>'
+        '<p><a href="sources.html#misamo">Masterpiece</a> · <a href="sources.html#haute-couture">HAUTE COUTURE</a> · '
+        '<a href="sources.html#play">PLAY</a></p>'
+        f'<h2>三條入門聆聽路線</h2>{editorial_list(routes, "sources.html")}'
         f'<h2>九位成員</h2><ul>{"".join(group_members)}</ul><p><a href="../index.html#intro">團體簡報</a> · '
         f'<a href="../index.html#debut">出道簡報</a> · <a href="../index.html#recap">回顧簡報</a></p>'
         f'<h2>資料來源</h2><ul>{references(group["sources"])}</ul></article>',
@@ -128,8 +162,10 @@ def generate():
                        f'<p>{e(source["summary"])}</p><small>查閱日期 {e(source["checked"])}</small>{link}</article>')
     entries["wiki/sources.html"] = wiki_page("資料來源", '<h1>資料來源</h1>' + "".join(records))
 
-    recap = ('<p class="lead">九位成員，2015 年在韓國出道。從〈Like OOH-AHH〉聽起，再挑一首小分隊或個人作品。</p>'
-             f'<ul class="lineup">{lineup}</ul><details><summary>小測驗：MISAMO 由哪三位成員組成？</summary><p>MOMO、SANA、MINA。</p></details>')
+    recap = ('<p class="lead">九位成員，2015 年在韓國出道。認識成員後，可以用下面三條路線比較不同時期與演唱組合。</p>'
+             f'<ul class="lineup">{lineup}</ul>{editorial_list(routes, "wiki/sources.html", show_sources=False)}'
+             '<details><summary>小測驗：MISAMO 由哪三位成員組成？</summary><p>MOMO、SANA、MINA。</p></details>'
+             '<details><summary>小測驗：《TEN》共有幾首成員獨唱？</summary><p>九首，每位成員各一首。專輯另有團體主打〈ME+YOU〉。</p></details>')
     slides.append(slide("recap", "重點回顧", "你記得哪一位？", recap, group_url))
     options = "".join(f'<option value="{key}">{e(label)}</option>' for key, label in
                       [("intro", "團體介紹"), ("debut", "出道與主打歌"), *[(m["id"], m["english"]) for m in members], ("recap", "重點回顧")])

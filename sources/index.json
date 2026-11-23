@@ -180,5 +180,33 @@
     "url": "https://www.twicejapan.com/feature/HAUTECOUTURE",
     "summary": "2024 年 MISAMO 第二張日本迷你專輯的各版曲目，分別標示 MOMO〈Money In My Pocket〉、SANA〈Mirage〉與 MINA〈Misty〉。",
     "checked": "2026-11-23"
+  },
+  {
+    "id": "fancy",
+    "title": "JYP｜FANCY YOU",
+    "url": "https://twice.jype.com/discography/dwedyf51",
+    "summary": "收錄〈FANCY〉，以及志效、MOMO、SANA、彩瑛參與作詞的四首收錄曲。",
+    "checked": "2026-11-23"
+  },
+  {
+    "id": "taste",
+    "title": "JYP｜Taste of Love",
+    "url": "https://twice.jype.com/discography/sltqfp9k",
+    "summary": "介紹〈Alcohol-Free〉的巴薩諾瓦節奏，以及娜璉、SANA、志效、多賢的作詞曲目。",
+    "checked": "2026-11-23"
+  },
+  {
+    "id": "ten",
+    "title": "JYP｜TEN: The Story Goes On",
+    "url": "https://twice.jype.com/discography/srviv59i",
+    "summary": "十週年特別專輯，收錄團體曲〈ME+YOU〉與九位成員各一首獨唱。",
+    "checked": "2026-11-23"
+  },
+  {
+    "id": "play",
+    "title": "TWICE 日本官網｜PLAY",
+    "url": "https://www.twicejapan.com/discography/detail/89/",
+    "summary": "MISAMO 的第一張日本正規專輯於 2026 年 2 月 4 日發行。",
+    "checked": "2026-11-23"
   }
 ]

@@ -143,6 +143,76 @@
           ]
         }
       }
+    ],
+    "milestones": [
+      [
+        2015,
+        "韓國出道",
+        "由《SIXTEEN》組成，10 月推出《THE STORY BEGINS》。",
+        "debut"
+      ],
+      [
+        2017,
+        "日本出道",
+        "以精選輯《#TWICE》展開日本活動，當中收錄〈TT〉等早期歌曲的日文版本。",
+        "japan-debut"
+      ],
+      [
+        2019,
+        "日本巨蛋巡演",
+        "春季舉辦日本巨蛋巡演。同年發行《FANCY YOU》，成員參與四首收錄曲的作詞。",
+        "japan",
+        "fancy"
+      ],
+      [
+        2021,
+        "原創英文單曲",
+        "發行〈The Feels〉，開啟原創英文單曲的發行路線。",
+        "english-singles"
+      ],
+      [
+        2023,
+        "日本體育場與 MISAMO",
+        "《READY TO BE》巡演來到日本體育場，MISAMO 同年推出《Masterpiece》。",
+        "japan",
+        "misamo"
+      ],
+      [
+        2025,
+        "團體出道十週年",
+        "《TEN: The Story Goes On》以〈ME+YOU〉為主打，並收錄九位成員各自的獨唱。",
+        "ten"
+      ],
+      [
+        2026,
+        "MISAMO 首張正規專輯",
+        "發行日本首張正規專輯《PLAY》，延續從《Masterpiece》與《HAUTE COUTURE》開始的小分隊活動。",
+        "play",
+        "misamo",
+        "haute-couture"
+      ]
+    ],
+    "routes": [
+      [
+        "早期團體曲",
+        "〈Like OOH-AHH〉→〈CHEER UP〉→〈TT〉",
+        "從三首早期主打聽副歌的記憶點，也可以對照 MV 的編舞。",
+        "video"
+      ],
+      [
+        "不同的舞曲編法",
+        "〈FANCY〉→〈Alcohol-Free〉",
+        "比較〈FANCY〉的電子舞曲編排，以及〈Alcohol-Free〉裡的巴薩諾瓦節奏。",
+        "fancy",
+        "taste"
+      ],
+      [
+        "團體、小分隊、個人",
+        "〈ME+YOU〉→〈Do not touch〉→任選一首《TEN》的獨唱",
+        "從九人團體曲轉到三人合作，再聽一首個人曲，感受演唱編制的變化。",
+        "ten",
+        "misamo"
+      ]
     ]
   },
   "members": [
@@ -161,7 +231,29 @@
         "video",
         "colors"
       ],
-      "highlight": "2024 年推出第二張個人迷你專輯《NA》，主打〈ABCD〉以早期 2000 年代流行舞曲為靈感。"
+      "highlight": "2024 年推出第二張個人迷你專輯《NA》，主打〈ABCD〉以早期 2000 年代流行舞曲為靈感。",
+      "anniversary_solo": "MEEEEEE",
+      "listening_note": "從〈POP!〉聽她的短句與節奏，再聽〈ABCD〉，比較兩首歌怎麼用副歌帶動舞曲。",
+      "works": [
+        [
+          2017,
+          "〈24/7〉",
+          "與志效共同為《twicetagram》的這首歌填詞。",
+          "twicetagram"
+        ],
+        [
+          2021,
+          "〈Baby Blue Love〉",
+          "為《Taste of Love》的收錄曲獨立填詞。",
+          "taste"
+        ],
+        [
+          2024,
+          "《NA》",
+          "第二張個人迷你專輯。除了〈ABCD〉，也收錄與 Sam Kim 合作的〈Heaven〉。",
+          "nayeon"
+        ]
+      ]
     },
     {
       "id": "jeongyeon",
@@ -178,7 +270,29 @@
         "twicetagram",
         "colors"
       ],
-      "highlight": "除了演唱，定延也參與團體創作。她為首張正規專輯《twicetagram》中的〈LOVE LINE〉填詞。"
+      "highlight": "除了演唱，定延也參與團體創作。她為首張正規專輯《twicetagram》中的〈LOVE LINE〉填詞。",
+      "anniversary_solo": "FIX A DRINK",
+      "listening_note": "先聽她填詞的〈LOVE LINE〉，再聽〈FIX A DRINK〉，留意團體輪唱與個人演唱的差異。",
+      "works": [
+        [
+          2017,
+          "〈LOVE LINE〉",
+          "《twicetagram》的收錄曲，由定延填詞，描寫想藏又藏不住的心意。",
+          "twicetagram"
+        ],
+        [
+          2025,
+          "〈BATTITUDE〉",
+          "與娜璉、MOMO、MINA 合作的四人曲，同樣收錄於《THIS IS FOR》。",
+          "this-is-for"
+        ],
+        [
+          2025,
+          "〈LET LOVE GO〉",
+          "同一張專輯換成 MOMO、SANA、子瑜與定延的組合，可比較兩首四人曲的分工。",
+          "this-is-for"
+        ]
+      ]
     },
     {
       "id": "momo",
@@ -195,7 +309,29 @@
         "haute-couture",
         "colors"
       ],
-      "highlight": "在 MISAMO 的第二張日本迷你專輯《HAUTE COUTURE》中，MOMO 版本收錄她的獨唱曲〈Money In My Pocket〉。"
+      "highlight": "在 MISAMO 的第二張日本迷你專輯《HAUTE COUTURE》中，MOMO 版本收錄她的獨唱曲〈Money In My Pocket〉。",
+      "anniversary_solo": "MOVE LIKE THAT",
+      "listening_note": "先看〈Do not touch〉的三人編舞，再聽〈Money In My Pocket〉，把注意力放在她獨唱時的節奏。",
+      "works": [
+        [
+          2019,
+          "〈HOT〉",
+          "與姜恩貞共同為《FANCY YOU》這首收錄曲填詞。",
+          "fancy"
+        ],
+        [
+          2023,
+          "《Masterpiece》",
+          "與 SANA、MINA 以 MISAMO 名義在日本發行首張迷你專輯，曲目包括〈Do not touch〉。",
+          "misamo"
+        ],
+        [
+          2024,
+          "〈Money In My Pocket〉",
+          "收錄於《HAUTE COUTURE》的 MOMO 版，是她在該作的獨唱曲。",
+          "haute-couture"
+        ]
+      ]
     },
     {
       "id": "sana",
@@ -212,7 +348,29 @@
         "haute-couture",
         "colors"
       ],
-      "highlight": "MISAMO 的《HAUTE COUTURE》SANA 版本收錄她的獨唱曲〈Mirage〉，可以接著〈Marshmallow〉一起聽。"
+      "highlight": "MISAMO 的《HAUTE COUTURE》SANA 版本收錄她的獨唱曲〈Mirage〉，可以接著〈Marshmallow〉一起聽。",
+      "anniversary_solo": "DECAFFEINATED",
+      "listening_note": "把 MISAMO 的〈Marshmallow〉和她獨唱的〈Mirage〉接著聽，注意三人輪唱與獨唱的句尾處理。",
+      "works": [
+        [
+          2019,
+          "〈TURN IT UP〉",
+          "參與《FANCY YOU》這首收錄曲的作詞。",
+          "fancy"
+        ],
+        [
+          2021,
+          "〈Conversation〉",
+          "為《Taste of Love》的收錄曲獨立填詞。可以邊聽邊留意官方介紹提到的低音線。",
+          "taste"
+        ],
+        [
+          2024,
+          "〈Mirage〉",
+          "收錄於《HAUTE COUTURE》的 SANA 版，是她在該作的獨唱曲。",
+          "haute-couture"
+        ]
+      ]
     },
     {
       "id": "jihyo",
@@ -230,7 +388,29 @@
         "twicetagram",
         "colors"
       ],
-      "highlight": "志效也參與 TWICE 的團體創作。她與娜璉共同為《twicetagram》收錄曲〈24/7〉填詞。"
+      "highlight": "志效也參與 TWICE 的團體創作。她與娜璉共同為《twicetagram》收錄曲〈24/7〉填詞。",
+      "anniversary_solo": "ATM",
+      "listening_note": "先聽〈Killin’ Me Good〉的主打聲線，再聽她填詞的〈First Time〉，從演唱與詞作兩個角度認識她。",
+      "works": [
+        [
+          2019,
+          "〈GIRLS LIKE US〉",
+          "志效為《FANCY YOU》的這首歌填詞，寫給追夢時遇到挫折的人。",
+          "fancy"
+        ],
+        [
+          2021,
+          "〈First Time〉",
+          "為《Taste of Love》的收錄曲獨立填詞，描寫剛墜入愛河的心情。",
+          "taste"
+        ],
+        [
+          2025,
+          "〈TALK〉",
+          "在《THIS IS FOR》中與娜璉合唱。兩人早在《twicetagram》就一起填過詞。",
+          "this-is-for"
+        ]
+      ]
     },
     {
       "id": "mina",
@@ -247,7 +427,29 @@
         "haute-couture",
         "colors"
       ],
-      "highlight": "MISAMO 的《HAUTE COUTURE》MINA 版本收錄獨唱曲〈Misty〉，可以從三人合唱延伸到她的個人聲線。"
+      "highlight": "MISAMO 的《HAUTE COUTURE》MINA 版本收錄獨唱曲〈Misty〉，可以從三人合唱延伸到她的個人聲線。",
+      "anniversary_solo": "STONE COLD",
+      "listening_note": "從 MISAMO 三人合唱的〈Bouquet〉到她獨唱的〈Misty〉，留意和聲和單獨聲線的差異。",
+      "works": [
+        [
+          2023,
+          "〈Bouquet〉",
+          "收錄於 MISAMO 首張日本迷你專輯《Masterpiece》，也是認識三人合唱的起點。",
+          "misamo"
+        ],
+        [
+          2024,
+          "〈Misty〉",
+          "《HAUTE COUTURE》MINA 版收錄的獨唱曲。",
+          "haute-couture"
+        ],
+        [
+          2025,
+          "〈G.O.A.T.〉",
+          "離開 MISAMO 的固定三人組合，與多賢、彩瑛在《THIS IS FOR》組成另一個三人編制。",
+          "this-is-for"
+        ]
+      ]
     },
     {
       "id": "dahyun",
@@ -264,7 +466,29 @@
         "twicetagram",
         "colors"
       ],
-      "highlight": "多賢也參與創作，曾和彩瑛一起負責《twicetagram》收錄曲〈MISSING U〉的饒舌段落創作。"
+      "highlight": "多賢也參與創作，曾和彩瑛一起負責《twicetagram》收錄曲〈MISSING U〉的饒舌段落創作。",
+      "anniversary_solo": "CHESS",
+      "listening_note": "從多賢參與饒舌創作的〈MISSING U〉，一路聽到她獨唱的〈CHESS〉，比較她在兩種編制的表現。",
+      "works": [
+        [
+          2017,
+          "〈MISSING U〉",
+          "與彩瑛共同負責《twicetagram》這首歌的饒舌段落創作。",
+          "twicetagram"
+        ],
+        [
+          2021,
+          "〈Scandal〉與〈SOS〉",
+          "兩首都收錄在《Taste of Love》，歌詞由多賢執筆。",
+          "taste"
+        ],
+        [
+          2025,
+          "〈G.O.A.T.〉",
+          "與 MINA、彩瑛在團體專輯《THIS IS FOR》中組成三人演唱組合。",
+          "this-is-for"
+        ]
+      ]
     },
     {
       "id": "chaeyoung",
@@ -281,7 +505,29 @@
         "video",
         "colors"
       ],
-      "highlight": "彩瑛參與首張個人專輯的每一首歌，也主導整體視覺。主打歌 MV 的布景、道具和角色從她的手繪草稿發展而來。"
+      "highlight": "彩瑛參與首張個人專輯的每一首歌，也主導整體視覺。主打歌 MV 的布景、道具和角色從她的手繪草稿發展而來。",
+      "anniversary_solo": "IN MY ROOM",
+      "listening_note": "把她填詞的團體曲〈STRAWBERRY〉和個人主打〈SHOOT (Firecracker)〉排在一起，對照兩種創作空間。",
+      "works": [
+        [
+          2017,
+          "〈MISSING U〉",
+          "與多賢為《twicetagram》的這首歌創作饒舌段落。",
+          "twicetagram"
+        ],
+        [
+          2019,
+          "〈STRAWBERRY〉",
+          "參與《FANCY YOU》這首收錄曲的作詞。",
+          "fancy"
+        ],
+        [
+          2025,
+          "〈My Guitar〉",
+          "從《READY TO BE》巡演的個人舞台，發展成《LIL FANTASY vol.1》收錄的新版本。",
+          "chaeyoung"
+        ]
+      ]
     },
     {
       "id": "tzuyu",
@@ -297,7 +543,29 @@
         "tzuyu",
         "colors"
       ],
-      "highlight": "《abouTZU》還收錄由子瑜獨立填詞的〈Fly〉，可以在主打〈Run Away〉之外聽到她的個人創作。"
+      "highlight": "《abouTZU》還收錄由子瑜獨立填詞的〈Fly〉，可以在主打〈Run Away〉之外聽到她的個人創作。",
+      "anniversary_solo": "DIVE IN",
+      "listening_note": "把〈Run Away〉與她獨立填詞的〈Fly〉接著聽，看看同一張專輯的主打和末曲各留下什麼印象。",
+      "works": [
+        [
+          2024,
+          "〈Run Away〉",
+          "《abouTZU》的主打曲，由 J.Y. Park 填詞，呈現子瑜個人專輯的一面。",
+          "tzuyu"
+        ],
+        [
+          2024,
+          "〈Fly〉",
+          "由子瑜獨立填詞，放在《abouTZU》的最後一軌。",
+          "tzuyu"
+        ],
+        [
+          2025,
+          "〈LET LOVE GO〉",
+          "在《THIS IS FOR》中與定延、MOMO、SANA 合唱，適合拿來和她的個人作品對照。",
+          "this-is-for"
+        ]
+      ]
     }
   ]
 }
