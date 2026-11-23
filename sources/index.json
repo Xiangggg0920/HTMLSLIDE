@@ -1,0 +1,184 @@
+[
+  {
+    "id": "profile",
+    "title": "JYP｜TWICE 成員資料",
+    "url": "https://twice.jype.com/profile",
+    "summary": "列出九位成員的藝名、生日與官方肖像。",
+    "checked": "2026-11-23"
+  },
+  {
+    "id": "japan",
+    "title": "TWICE 日本官網｜團體介紹",
+    "url": "https://www.twicejapan.com/?lang=en",
+    "summary": "團體為九人編制，團名呼應音樂與表演帶來的雙重感受，2017 年在日本出道。",
+    "checked": "2026-11-23"
+  },
+  {
+    "id": "debut",
+    "title": "JYP｜THE STORY BEGINS",
+    "url": "https://twice.jype.com/discography/jqpvqq2k",
+    "summary": "九位成員透過 Mnet 節目《SIXTEEN》組成團體，2015 年 10 月 20 日發行出道作品，主打〈Like OOH-AHH〉。",
+    "checked": "2026-11-23"
+  },
+  {
+    "id": "video",
+    "title": "JYP｜官方 MV 索引",
+    "url": "https://twice.jype.com/video",
+    "summary": "列有〈Like OOH-AHH〉、〈CHEER UP〉、〈Feel Special〉、〈The Feels〉等團體作品，以及〈POP!〉與〈Killin’ Me Good〉。",
+    "checked": "2026-11-23"
+  },
+  {
+    "id": "nayeon",
+    "title": "JYP｜NA",
+    "url": "https://twice.jype.com/discography/9g1kq9h8",
+    "summary": "回顧娜璉於 2022 年六月以《IM NAYEON》率先展開個人活動。",
+    "checked": "2026-11-23"
+  },
+  {
+    "id": "misamo",
+    "title": "TWICE 日本官網｜Masterpiece",
+    "url": "https://www.twicejapan.com/discography/detail/63/",
+    "summary": "MINA、SANA、MOMO 組成的 MISAMO 於 2023 年 7 月 26 日發行日本首張迷你專輯，收錄〈Do not touch〉、〈Marshmallow〉與〈Bouquet〉。",
+    "checked": "2026-11-23"
+  },
+  {
+    "id": "zone",
+    "title": "JYP｜ZONE 發行公告索引",
+    "url": "https://twice.jype.com/Mobile/NoticeList?PgIndex=41",
+    "summary": "志效的首張個人迷你專輯《ZONE》於 2023 年 8 月 18 日發行。",
+    "checked": "2026-11-23"
+  },
+  {
+    "id": "tzuyu",
+    "title": "JYP｜abouTZU",
+    "url": "https://twice.jype.com/discography/oikypz9f",
+    "summary": "子瑜是團內年紀最小的成員，於 2024 年發行首張個人迷你專輯《abouTZU》，主打〈Run Away〉。",
+    "checked": "2026-11-23"
+  },
+  {
+    "id": "chaeyoung",
+    "title": "JYP｜LIL FANTASY vol.1",
+    "url": "https://twice.jype.com/discography/d6kjdlvw",
+    "summary": "彩瑛的首張個人正規專輯於 2025 年發行，專輯名指向她的內心世界。",
+    "checked": "2026-11-23"
+  },
+  {
+    "id": "this-is-for",
+    "title": "JYP｜THIS IS FOR",
+    "url": "https://twice.jype.com/discography/7lpxlcye",
+    "summary": "2025 年團體正規專輯包含不同成員組合的曲目。定延參與〈LET LOVE GO〉，多賢參與〈G.O.A.T.〉。",
+    "checked": "2026-11-23"
+  },
+  {
+    "id": "colors",
+    "title": "使用者提供｜成員應援色對照表",
+    "url": "",
+    "summary": "依成員順序為天空藍、橄欖綠、粉紅、紫、橙、薄荷綠、白、紅、藍。網頁色碼是依照色名選用的近似配色。",
+    "checked": "2026-11-23"
+  },
+  {
+    "id": "best",
+    "title": "TWICE 日本官網｜#BEST 2015-2025",
+    "url": "https://www.twicejapan.com/discography/detail/91/",
+    "summary": "2026 年發行的精選輯。前兩碟集中收錄出道至十週年的團體主打及單曲，可與 JYP 唱片及 MV 索引交叉核對。",
+    "checked": "2026-11-23"
+  },
+  {
+    "id": "korean-discography",
+    "title": "JYP｜官方唱片目錄",
+    "url": "https://twice.jype.com/discography",
+    "summary": "按發行日期收錄韓國系列專輯、數位單曲及個人作品；本專案篩選團體發行。",
+    "checked": "2026-11-23"
+  },
+  {
+    "id": "japan-singles",
+    "title": "TWICE 日本官網｜日本單曲目錄",
+    "url": "https://www.twicejapan.com/discography/kind/1/",
+    "summary": "收錄〈Wake Me Up〉到〈Hare Hare〉的日本實體單曲。",
+    "checked": "2026-11-23"
+  },
+  {
+    "id": "japan-singles-2",
+    "title": "TWICE 日本官網｜早期日本單曲",
+    "url": "https://www.twicejapan.com/discography/kind/1/?page=2",
+    "summary": "記載〈One More Time〉與〈Candy Pop〉的發行資料。",
+    "checked": "2026-11-23"
+  },
+  {
+    "id": "japan-albums",
+    "title": "TWICE 日本官網｜日本專輯目錄",
+    "url": "https://www.twicejapan.com/discography/kind/2/",
+    "summary": "用來核對日本原創專輯及精選輯的發行資訊。",
+    "checked": "2026-11-23"
+  },
+  {
+    "id": "japan-video",
+    "title": "TWICE 日本官網｜日本出道五週年影像集",
+    "url": "https://www.twicejapan.com/discography/detail/53/",
+    "summary": "包含〈BDZ〉、〈Fake & True〉、〈Perfect World〉等團體 MV。",
+    "checked": "2026-11-23"
+  },
+  {
+    "id": "japan-debut",
+    "title": "TWICE 日本官網｜#TWICE",
+    "url": "https://www.twicejapan.com/feature/album_twice",
+    "summary": "記載日本出道精選輯，並收錄〈TT -Japanese ver.-〉完整 MV。",
+    "checked": "2026-11-23"
+  },
+  {
+    "id": "japan-repackage",
+    "title": "TWICE 日本官網｜BDZ 改版公告",
+    "url": "https://www.twicejapan.com/news/detail/352",
+    "summary": "日本首張專輯的改版新增〈STAY BY MY SIDE〉。",
+    "checked": "2026-11-23"
+  },
+  {
+    "id": "japan-enemy",
+    "title": "TWICE 日本官網｜ENEMY 發行企劃",
+    "url": "https://www.twicejapan.com/news/detail/1844",
+    "summary": "把〈ENEMY〉明列為日本第六張專輯的主打曲。",
+    "checked": "2026-11-23"
+  },
+  {
+    "id": "english-singles",
+    "title": "JYP｜I GOT YOU 發行資料",
+    "url": "https://twice.jype.com/discography/pwmxbqmn",
+    "summary": "確認〈The Feels〉、〈MOONLIGHT SUNRISE〉與〈I GOT YOU〉是原創英文單曲，並說明後兩首的先行發行性質。",
+    "checked": "2026-11-23"
+  },
+  {
+    "id": "japan-want",
+    "title": "TWICE 日本官網｜I WANT YOU BACK",
+    "url": "https://www.twicejapan.com/news/detail/267",
+    "summary": "公告〈I WANT YOU BACK〉的數位發行及 MV。",
+    "checked": "2026-11-23"
+  },
+  {
+    "id": "japan-yourself",
+    "title": "Warner Music Japan｜Just be yourself",
+    "url": "https://wmg.jp/twice/discography/25883",
+    "summary": "列為 2022 年 3 月發行的日本數位單曲。",
+    "checked": "2026-11-23"
+  },
+  {
+    "id": "japan-dance",
+    "title": "TWICE 日本官網｜Dance Again",
+    "url": "https://www.twicejapan.com/news/detail/1379",
+    "summary": "公告〈Dance Again〉於 2023 年 12 月獨立數位發行。",
+    "checked": "2026-11-23"
+  },
+  {
+    "id": "twicetagram",
+    "title": "JYP｜twicetagram",
+    "url": "https://twice.jype.com/discography/cpzs0rno",
+    "summary": "列出定延的〈LOVE LINE〉作詞、娜璉與志效的〈24/7〉作詞，以及多賢與彩瑛的〈MISSING U〉饒舌創作。",
+    "checked": "2026-11-23"
+  },
+  {
+    "id": "haute-couture",
+    "title": "TWICE 日本官網｜HAUTE COUTURE",
+    "url": "https://www.twicejapan.com/feature/HAUTECOUTURE",
+    "summary": "2024 年 MISAMO 第二張日本迷你專輯的各版曲目，分別標示 MOMO〈Money In My Pocket〉、SANA〈Mirage〉與 MINA〈Misty〉。",
+    "checked": "2026-11-23"
+  }
+]

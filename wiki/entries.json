@@ -1,0 +1,303 @@
+{
+  "group": {
+    "title": "TWICE",
+    "description": "TWICE 是由 JYP Entertainment 推出的九人女子團體。團名呼應音樂與舞台表演帶來的雙重感受。",
+    "debut": "TWICE 透過 Mnet 選秀節目《SIXTEEN》組成，於 2015 年 10 月 20 日發行首張迷你專輯《THE STORY BEGINS》，主打〈Like OOH-AHH〉。",
+    "sources": [
+      "profile",
+      "japan",
+      "debut",
+      "video",
+      "misamo"
+    ],
+    "tracks_checked": "2026-11-23",
+    "track_scope": "收錄 TWICE 團體的韓國專輯主打、韓國系列獨立單曲、日本專輯主打及實體與數位單曲及原創英文數位單曲。日本出道主推曲保留日文版；其他語言版本、精選輯重收、非主打配樂與個人或小分隊作品不重複計入。",
+    "track_groups": [
+      {
+        "label": "韓國專輯與單曲",
+        "sources": [
+          "video",
+          "best",
+          "korean-discography"
+        ],
+        "years": {
+          "2015": [
+            "Like OOH-AHH"
+          ],
+          "2016": [
+            "CHEER UP",
+            "TT"
+          ],
+          "2017": [
+            "KNOCK KNOCK",
+            "SIGNAL",
+            "LIKEY",
+            "Heart Shaker"
+          ],
+          "2018": [
+            "What is Love?",
+            "Dance The Night Away",
+            "YES or YES",
+            "The Best Thing I Ever Did"
+          ],
+          "2019": [
+            "FANCY",
+            "Feel Special"
+          ],
+          "2020": [
+            "MORE & MORE",
+            "I CAN'T STOP ME",
+            "CRY FOR ME"
+          ],
+          "2021": [
+            "Alcohol-Free",
+            "SCIENTIST"
+          ],
+          "2022": [
+            "Talk that Talk"
+          ],
+          "2023": [
+            "SET ME FREE"
+          ],
+          "2024": [
+            "ONE SPARK",
+            "Strategy (feat. Megan Thee Stallion)"
+          ],
+          "2025": [
+            "THIS IS FOR",
+            "ME+YOU"
+          ]
+        }
+      },
+      {
+        "label": "日本專輯與單曲",
+        "sources": [
+          "japan-singles",
+          "japan-singles-2",
+          "japan-albums",
+          "japan-video",
+          "japan-debut",
+          "japan-repackage",
+          "japan-enemy",
+          "japan-want",
+          "japan-yourself",
+          "japan-dance"
+        ],
+        "years": {
+          "2017": [
+            "TT -Japanese ver.-",
+            "One More Time"
+          ],
+          "2018": [
+            "Candy Pop",
+            "Wake Me Up",
+            "I WANT YOU BACK",
+            "BDZ",
+            "STAY BY MY SIDE"
+          ],
+          "2019": [
+            "HAPPY HAPPY",
+            "Breakthrough",
+            "Fake & True"
+          ],
+          "2020": [
+            "Fanfare",
+            "BETTER"
+          ],
+          "2021": [
+            "Kura Kura",
+            "Perfect World",
+            "Doughnut"
+          ],
+          "2022": [
+            "Just be yourself",
+            "Celebrate"
+          ],
+          "2023": [
+            "Hare Hare",
+            "Dance Again"
+          ],
+          "2024": [
+            "DIVE"
+          ],
+          "2025": [
+            "ENEMY"
+          ]
+        }
+      },
+      {
+        "label": "英文數位單曲",
+        "sources": [
+          "english-singles",
+          "best"
+        ],
+        "years": {
+          "2021": [
+            "The Feels"
+          ],
+          "2023": [
+            "MOONLIGHT SUNRISE"
+          ],
+          "2024": [
+            "I GOT YOU"
+          ]
+        }
+      }
+    ]
+  },
+  "members": [
+    {
+      "id": "nayeon",
+      "name": "娜璉",
+      "english": "NAYEON",
+      "birthday": "1995-09-22",
+      "color": "天空藍",
+      "hex": "#56bedf",
+      "detail": "2022 年發行《IM NAYEON》，是團內第一位推出個人專輯的成員。",
+      "listen": "〈POP!〉",
+      "sources": [
+        "profile",
+        "nayeon",
+        "video",
+        "colors"
+      ],
+      "highlight": "2024 年推出第二張個人迷你專輯《NA》，主打〈ABCD〉以早期 2000 年代流行舞曲為靈感。"
+    },
+    {
+      "id": "jeongyeon",
+      "name": "定延",
+      "english": "JEONGYEON",
+      "birthday": "1996-11-01",
+      "color": "橄欖綠",
+      "hex": "#b4c665",
+      "detail": "在團體專輯《THIS IS FOR》中，與 MOMO、SANA、TZUYU 一起演唱〈LET LOVE GO〉。",
+      "listen": "〈LET LOVE GO〉",
+      "sources": [
+        "profile",
+        "this-is-for",
+        "twicetagram",
+        "colors"
+      ],
+      "highlight": "除了演唱，定延也參與團體創作。她為首張正規專輯《twicetagram》中的〈LOVE LINE〉填詞。"
+    },
+    {
+      "id": "momo",
+      "name": "MOMO",
+      "english": "MOMO",
+      "birthday": "1996-11-09",
+      "color": "粉紅",
+      "hex": "#ff90ad",
+      "detail": "與 SANA、MINA 組成 MISAMO，於 2023 年推出小分隊首張日本迷你專輯《Masterpiece》。",
+      "listen": "〈Do not touch〉",
+      "sources": [
+        "profile",
+        "misamo",
+        "haute-couture",
+        "colors"
+      ],
+      "highlight": "在 MISAMO 的第二張日本迷你專輯《HAUTE COUTURE》中，MOMO 版本收錄她的獨唱曲〈Money In My Pocket〉。"
+    },
+    {
+      "id": "sana",
+      "name": "SANA",
+      "english": "SANA",
+      "birthday": "1996-12-29",
+      "color": "紫",
+      "hex": "#ac91df",
+      "detail": "與 MOMO、MINA 組成 MISAMO。《Masterpiece》除了推出團體版本，也推出 SANA 個人封面版本。",
+      "listen": "〈Marshmallow〉",
+      "sources": [
+        "profile",
+        "misamo",
+        "haute-couture",
+        "colors"
+      ],
+      "highlight": "MISAMO 的《HAUTE COUTURE》SANA 版本收錄她的獨唱曲〈Mirage〉，可以接著〈Marshmallow〉一起聽。"
+    },
+    {
+      "id": "jihyo",
+      "name": "志效",
+      "english": "JIHYO",
+      "birthday": "1997-02-01",
+      "color": "橙",
+      "hex": "#ffbd70",
+      "detail": "2023 年推出個人首張迷你專輯《ZONE》，以〈Killin’ Me Good〉作為主打。",
+      "listen": "〈Killin’ Me Good〉",
+      "sources": [
+        "profile",
+        "zone",
+        "video",
+        "twicetagram",
+        "colors"
+      ],
+      "highlight": "志效也參與 TWICE 的團體創作。她與娜璉共同為《twicetagram》收錄曲〈24/7〉填詞。"
+    },
+    {
+      "id": "mina",
+      "name": "MINA",
+      "english": "MINA",
+      "birthday": "1997-03-24",
+      "color": "薄荷綠",
+      "hex": "#70d1b5",
+      "detail": "與 MOMO、SANA 組成 MISAMO。《Masterpiece》收錄三人共同演唱的〈Bouquet〉。",
+      "listen": "〈Bouquet〉",
+      "sources": [
+        "profile",
+        "misamo",
+        "haute-couture",
+        "colors"
+      ],
+      "highlight": "MISAMO 的《HAUTE COUTURE》MINA 版本收錄獨唱曲〈Misty〉，可以從三人合唱延伸到她的個人聲線。"
+    },
+    {
+      "id": "dahyun",
+      "name": "多賢",
+      "english": "DAHYUN",
+      "birthday": "1998-05-28",
+      "color": "白",
+      "hex": "#ffffff",
+      "detail": "在《THIS IS FOR》中，多賢與 MINA、CHAEYOUNG 合作演唱〈G.O.A.T.〉。",
+      "listen": "〈G.O.A.T.〉",
+      "sources": [
+        "profile",
+        "this-is-for",
+        "twicetagram",
+        "colors"
+      ],
+      "highlight": "多賢也參與創作，曾和彩瑛一起負責《twicetagram》收錄曲〈MISSING U〉的饒舌段落創作。"
+    },
+    {
+      "id": "chaeyoung",
+      "name": "彩瑛",
+      "english": "CHAEYOUNG",
+      "birthday": "1999-04-23",
+      "color": "紅",
+      "hex": "#ea5963",
+      "detail": "2025 年推出首張個人正規專輯《LIL FANTASY vol.1》，以專輯名稱描繪自己的內心世界。",
+      "listen": "〈SHOOT (Firecracker)〉",
+      "sources": [
+        "profile",
+        "chaeyoung",
+        "video",
+        "colors"
+      ],
+      "highlight": "彩瑛參與首張個人專輯的每一首歌，也主導整體視覺。主打歌 MV 的布景、道具和角色從她的手繪草稿發展而來。"
+    },
+    {
+      "id": "tzuyu",
+      "name": "子瑜",
+      "english": "TZUYU",
+      "birthday": "1999-06-14",
+      "color": "藍",
+      "hex": "#3d86dc",
+      "detail": "子瑜是團內最年輕的成員，2024 年推出首張個人迷你專輯《abouTZU》。",
+      "listen": "〈Run Away〉",
+      "sources": [
+        "profile",
+        "tzuyu",
+        "colors"
+      ],
+      "highlight": "《abouTZU》還收錄由子瑜獨立填詞的〈Fly〉，可以在主打〈Run Away〉之外聽到她的個人創作。"
+    }
+  ]
+}
