@@ -25,4 +25,4 @@
 
 修改來源或 Wiki 後，在專案根目錄執行 `python build.py`，再執行 `python build.py --check`。Python 只用於更新生成檔，瀏覽與部署都可直接使用現成的 HTML。
 
-自行上傳時，保留根目錄的 `index.html`、`.nojekyll` 及各資料夾。在 GitHub 儲存庫的 **Settings → Pages** 選擇 **Deploy from a branch**，指定上傳的分支與 **/ (root)** 後儲存。GitHub Pages 產生網址後，可用根網址開啟簡報，或加上 `wiki/index.html` 開啟 Wiki。[GitHub Pages 官方步驟](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site)
+自行上傳時，保留根目錄的 `index.html`、`.nojekyll` 及各資料夾。照片檔名使用小寫，例如 `image/jeongyeon.jpg`，並與 HTML 引用逐字一致。在 GitHub 儲存庫的 **Settings → Pages** 選擇 **Deploy from a branch**，指定上傳的分支與 **/ (root)** 後儲存。GitHub Pages 產生網址後，可用根網址開啟簡報，或加上 `wiki/index.html` 開啟 Wiki。[GitHub Pages 官方步驟](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site)

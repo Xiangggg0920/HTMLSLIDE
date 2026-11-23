@@ -9,7 +9,7 @@
 - `sources/index.json` 是收錄層。每筆保存唯一的 `id`、`title`、原始 `url`、`summary` 及查閱日期 `checked`（YYYY-MM-DD）。使用者提供的離線資料可以省略網址內容，並在摘要描述來源。
 - `wiki/entries.json` 是知識層。團體資料放在 `group`，成員放在 `members`。增修主打歌時，在 `group.track_groups` 維護發行類別、年份、原始曲名和來源 ID，並同步更新收錄範圍與查閱日期。每位成員使用固定的英文小寫 `id`，並記錄中英文藝名、生日、應援色名與色碼、入門介紹、試聽曲和來源 ID。
 - `build.py` 產生根目錄 `index.html` 與 `wiki/*.html`。更新時修改資料或生成模板。畫面樣式與導覽行為分別放在 `assets/site.css`、`assets/slides.js`。
-- `image/` 以成員 ID 命名個人照，團照使用 `twice.jpg`。更換照片時先核對人名與素材出處，再檢查桌面和窄螢幕的裁切。
+- `image/` 以全小寫的成員 ID 和副檔名命名個人照，例如 `jeongyeon.jpg`。團照使用 `twice.jpg`。更換照片時先核對人名與素材出處，再檢查桌面和窄螢幕的裁切。部署前用 `git ls-files -- image` 核對檔名大小寫與 HTML 引用完全一致。
 - `workflow.jpg` 保存流程圖。依實際執行結果，將日期、變更、檢查與反思追加到 `qa-report.md`。
 
 ## 新增內容
